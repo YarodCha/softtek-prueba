@@ -1,0 +1,25 @@
+.app-header {
+  padding: 1rem;
+  font-weight: 600;
+
+  .app-header__container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .app-header__nav {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .app-header__message {
+    font-size: 0.75rem;
+  }
+
+  .app-header__mobile {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+}

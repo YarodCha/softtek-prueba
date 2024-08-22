@@ -1,0 +1,27 @@
+.app-footer {
+  background-color: rgba(3, 5, 15, 1);
+  color: rgba(248, 249, 255, 1);
+  padding: 2rem 1rem;
+
+  .app-footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  @media screen and (max-width: 768px) {
+    .app-footer__container {
+      flex-direction: column;
+    }
+    .app-footer__logo {
+      width: 100%;
+      text-align: center;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid #2b304e;
+    }
+    .app-footer__copyright {
+      padding-top: 1.5rem;
+      font-size: 12px;
+    }
+  }
+}

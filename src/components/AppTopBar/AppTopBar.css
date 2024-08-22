@@ -1,0 +1,43 @@
+.app-top-bar {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  background-color: rgba(237, 239, 252, 1);
+  color: rgba(121, 129, 178, 1);
+  align-items: center;
+
+  .app-top-bar__item {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .app-top-bar__item--active {
+    color: rgba(20, 25, 56, 1);
+    font-weight: 700;
+
+    .app-top-bar__number {
+      border: 1px solid rgba(79, 79, 255, 1);
+      background-color: rgba(79, 79, 255, 1);
+      color: white;
+    }
+  }
+
+  .app-top-bar__number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    border: 1px solid currentColor;
+    border-radius: 50%;
+    text-align: center;
+  }
+
+  .app-top-bar__separator {
+    width: 32px;
+    height: 1px;
+    border-top: 2px solid rgba(79, 79, 255, 1);
+  }
+}

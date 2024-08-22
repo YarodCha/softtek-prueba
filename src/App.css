@@ -1,0 +1,27 @@
+.app {
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+  min-height: 100vh;
+}
+
+.tag {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+  background: linear-gradient(90deg, #00f4e2 0%, #00ff7f 100%);
+  width: fit-content;
+}
+
+.form-error {
+  font-size: 14px;
+  color: #ff1c44;
+  margin: 0.5rem 0;
+}
+
+.form-control-invalid {
+  border-color: #ff1c44;
+  color: #ff1c44;
+}

@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: "Lato", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: rgba(3, 5, 15, 1);
+  background-color: rgba(248, 249, 255, 1);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container-max-width {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+}
+
+@media screen and (min-width: 768px) {
+  .hide-for-desktop {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hide-for-mobile {
+    display: none;
+  }
+}
